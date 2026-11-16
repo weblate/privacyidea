@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
   <file source-language="en" target-language="ru" datatype="plaintext" original="ng2.template">
     <body>
       <trans-unit id="audit.downloadAudit" datatype="html">
@@ -171,8 +171,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="audit.exampleQueryAction" datatype="html">
-        <source>Example query: &apos;action: GET success: false&apos;</source>
-        <target>Пример запроса: &apos;action: GET success: false&apos;</target>
+        <source>Example query: 'action: GET success: false'</source>
+        <target>Пример запроса: 'action: GET success: false'</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/logs/audit/audit.component.html</context>
           <context context-type="linenumber">42</context>
@@ -1568,7 +1568,7 @@
       </trans-unit>
       <trans-unit id="periodicTask.noPeriodicTasks" datatype="html">
         <source>No periodic tasks yet</source>
-        <target state="new">Периодические задачи не найдены.</target>
+        <target state="translated">Периодических задач пока нет</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/configuration/periodic-task/periodic-task.component.html</context>
           <context context-type="linenumber">279</context>
@@ -3155,8 +3155,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="tokenTypeConfig.thereforeMandatory" datatype="html">
-        <source>Therefore it is mandatory to set this, if webauthn_authenticator_attestation_level is set to &quot;trusted&quot; by a policy for any user.</source>
-        <target>Поэтому это обязательно нужно задать, если webauthn_authenticator_attestation_level установлен в &quot;trusted&quot; политикой для какого-либо пользователя.</target>
+        <source>Therefore it is mandatory to set this, if webauthn_authenticator_attestation_level is set to "trusted" by a policy for any user.</source>
+        <target>Поэтому это обязательно нужно задать, если webauthn_authenticator_attestation_level установлен в "trusted" политикой для какого-либо пользователя.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/configuration/token-type-config/token-types/webauthn-config/webauthn-config.component.html</context>
           <context context-type="linenumber">60</context>
@@ -3171,8 +3171,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="tokenTypeConfig.trustAnchorDirMustNot" datatype="html">
-        <source>The trust_anchor_dir must not end with a &quot;/&quot;.</source>
-        <target>trust_anchor_dir не должен заканчиваться на &quot;/&quot;.</target>
+        <source>The trust_anchor_dir must not end with a "/".</source>
+        <target>trust_anchor_dir не должен заканчиваться на "/".</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/configuration/token-type-config/token-types/webauthn-config/webauthn-config.component.html</context>
           <context context-type="linenumber">71</context>
@@ -4180,7 +4180,7 @@
       </trans-unit>
       <trans-unit id="event.leastOneEvent" datatype="html">
         <source>At least one event must be selected.</source>
-        <target state="new">Необходимо выбрать хотя бы одно состояние.</target>
+        <target state="translated">Необходимо выбрать хотя бы одно событие.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/event/event-edit-page/event-selection/event-selection.component.html</context>
           <context context-type="linenumber">46</context>
@@ -4263,8 +4263,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="container.pleaseScanQrCode" datatype="html">
-        <source>Please scan the QR code with the privacyIDEA Authenticator App or click this <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;{{ data()?.response?.result?.value?.container_url?.value ?? &apos;&apos; }}&quot;&gt;"/>link<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> on your smartphone to register your container. It will send the missing registration data to the configured endpoint.</source>
-        <target>Пожалуйста, отсканируйте QR-код с помощью приложения privacyIDEA Authenticator или нажмите эту <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;{{ data()?.response?.result?.value?.container_url?.value ?? &apos;&apos; }}&quot;&gt;"/>ссылку<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> на смартфоне, чтобы зарегистрировать ваш контейнер. Это отправит недостающие регистрационные данные на настроенную конечную точку.</target>
+        <source>Please scan the QR code with the privacyIDEA Authenticator App or click this <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;{{ data()?.response?.result?.value?.container_url?.value ?? '' }}&quot;&gt;"/>link<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> on your smartphone to register your container. It will send the missing registration data to the configured endpoint.</source>
+        <target>Пожалуйста, отсканируйте QR-код с помощью приложения privacyIDEA Authenticator или нажмите эту <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;{{ data()?.response?.result?.value?.container_url?.value ?? '' }}&quot;&gt;"/>ссылку<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> на смартфоне, чтобы зарегистрировать ваш контейнер. Это отправит недостающие регистрационные данные на настроенную конечную точку.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/container/container-create/container-created-dialog/container-created-dialog.component.html</context>
           <context context-type="linenumber">49</context>
@@ -4352,7 +4352,7 @@
       </trans-unit>
       <trans-unit id="container.successfullyDeleted" datatype="html">
         <source>Successfully deleted <x id="COUNT" equiv-text="selectedContainers.length"/> containers.</source>
-        <target state="new">Успешно удалено контейнеров: <x id="COUNT" equiv-text="selectedContainers.length"/>.</target>
+        <target state="translated">Успешно удалено <x id="COUNT" equiv-text="selectedContainers.length"/> контейнеров.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/container/container-table/container-table-actions/container-table-actions.component.ts</context>
           <context context-type="linenumber">82</context>
@@ -4379,8 +4379,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="container.exampleQueryType" datatype="html">
-        <source>Example query: &apos;type: generic&apos;</source>
-        <target>Пример запроса: &apos;type: generic&apos;</target>
+        <source>Example query: 'type: generic'</source>
+        <target>Пример запроса: 'type: generic'</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/container/container-table/container-table.component.html</context>
           <context context-type="linenumber">46</context>
@@ -4567,8 +4567,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="container.exampleQueryName" datatype="html">
-        <source>Example query: &apos;name: example_template container_type: smartphone&apos;</source>
-        <target>Пример запроса: &apos;name: example_template container_type: smartphone&apos;</target>
+        <source>Example query: 'name: example_template container_type: smartphone'</source>
+        <target>Пример запроса: 'name: example_template container_type: smartphone'</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/container/container-templates/container-templates-filter/container-templates-filter.component.html</context>
           <context context-type="linenumber">34</context>
@@ -5043,8 +5043,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="common.exampleQueryUsername" datatype="html">
-        <source>Example query: &apos;username: root&apos;</source>
-        <target>Пример запроса: &apos;username: root&apos;</target>
+        <source>Example query: 'username: root'</source>
+        <target>Пример запроса: 'username: root'</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/event/event.component.html</context>
           <context context-type="linenumber">43</context>
@@ -6120,7 +6120,7 @@
       </trans-unit>
       <trans-unit id="radiusServer.deleteRadiusServers" datatype="html">
         <source>Delete RADIUS Servers</source>
-        <target state="new">Удалить сервер RADIUS</target>
+        <target state="translated">Удалить RADIUS сервера</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/external-services/radius-servers/radius-servers.component.ts</context>
           <context context-type="linenumber">145</context>
@@ -6220,7 +6220,7 @@
       </trans-unit>
       <trans-unit id="serviceId.deleteServiceIds" datatype="html">
         <source>Delete Service IDs</source>
-        <target state="new">Удалить идентификатор службы</target>
+        <target state="translated">Удалить Service IDs</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/external-services/service-ids/service-ids.component.ts</context>
           <context context-type="linenumber">130</context>
@@ -6356,7 +6356,7 @@
       </trans-unit>
       <trans-unit id="smsGateway.deleteSmsGateways" datatype="html">
         <source>Delete SMS Gateways</source>
-        <target state="new">Удалить SMS-шлюз</target>
+        <target state="translated">Удалить SMS-шлюзы</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/external-services/sms-gateways/sms-gateways.component.ts</context>
           <context context-type="linenumber">141</context>
@@ -6451,7 +6451,7 @@
         </context-group>
       </trans-unit>
       <trans-unit id="smtpServer.donTSendSigning" datatype="html">
-        <source>Don&apos;t send on signing error</source>
+        <source>Don't send on signing error</source>
         <target>Не отправлять при ошибке подписи</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/external-services/smtp-servers/new-smtp-server/new-smtp-server.component.html</context>
@@ -6528,7 +6528,7 @@
       </trans-unit>
       <trans-unit id="smtpServer.deleteSmtpServers" datatype="html">
         <source>Delete SMTP Servers</source>
-        <target state="new">Удалить SMTP-сервер</target>
+        <target state="translated">Удалить SMTP-сервера</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/external-services/smtp-servers/smtp-servers.component.ts</context>
           <context context-type="linenumber">128</context>
@@ -6572,7 +6572,7 @@
       </trans-unit>
       <trans-unit id="tokenGroup.deleteTokenGroups" datatype="html">
         <source>Delete Token Groups</source>
-        <target state="new">Удалить группу токенов</target>
+        <target state="translated">Удалить группу токенов</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/external-services/tokengroups/tokengroups.component.ts</context>
           <context context-type="linenumber">139</context>
@@ -6692,7 +6692,7 @@
       </trans-unit>
       <trans-unit id="nav.openSourceProject" datatype="html">
         <source>An open-source project <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;https://netknights.it/&quot; target=&quot;_blank&quot; &gt;"/>maintained by NetKnights <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
-        <target>Проект с открытым исходным кодом <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;https://netknights.it/&quot; target=&quot;_blank&quot; &gt;"/>, поддерживаемый NetKnights <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></target>
+        <target state="translated">Проект с открытым исходным кодом <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;https://netknights.it/&quot; target=&quot;_blank&quot; &gt;"/>, поддерживаемый NetKnights<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/layout/navigation/navigation.component.html</context>
           <context context-type="linenumber">111</context>
@@ -6868,7 +6868,7 @@
       </trans-unit>
       <trans-unit id="common.resolvers" datatype="html">
         <source>Resolvers</source>
-        <target>Resolver&apos;ы</target>
+        <target>Resolver'ы</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/layout/navigation/navigation.component.html</context>
           <context context-type="linenumber">425</context>
@@ -7493,7 +7493,7 @@
         </context-group>
       </trans-unit>
       <trans-unit id="machine.pathCaCertificate" datatype="html">
-        <source>Path to a CA certificate file to verify the LDAP server&apos;s TLS certificate.</source>
+        <source>Path to a CA certificate file to verify the LDAP server's TLS certificate.</source>
         <target>Путь к файлу сертификата CA для проверки TLS-сертификата сервера LDAP.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/machine-resolver/machine-resolver-ldap-tab/machine-resolver-ldap-tab.component.html</context>
@@ -8037,8 +8037,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="policy.exampleQueryScope" datatype="html">
-        <source>Example query: &apos;scope: enrollment, active: true&apos;</source>
-        <target>Пример запроса: &apos;scope: enrollment, active: true&apos;</target>
+        <source>Example query: 'scope: enrollment, active: true'</source>
+        <target>Пример запроса: 'scope: enrollment, active: true'</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/policies/policies-table/policy-filter/policy-filter.component.html</context>
           <context context-type="linenumber">38</context>
@@ -8398,7 +8398,7 @@
       </trans-unit>
       <trans-unit id="policy.clearUserAgents" datatype="html">
         <source>Clear User Agents</source>
-        <target>Очистить User-Agent&apos;ы</target>
+        <target>Очистить User-Agent'ы</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/policies/policy-edit-page/policy-panels/edit-conditions-tab/edit-environment-conditions/edit-environment-conditions.component.html</context>
           <context context-type="linenumber">124</context>
@@ -8470,7 +8470,7 @@
       </trans-unit>
       <trans-unit id="policy.noResolversAvailable" datatype="html">
         <source>No resolvers available for the selected realms.</source>
-        <target>Нет доступных resolver&apos;ов для выбранных доменов.</target>
+        <target>Нет доступных resolver'ов для выбранных доменов.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/policies/policy-edit-page/policy-panels/edit-conditions-tab/edit-user-conditions/edit-user-conditions.component.ts</context>
           <context context-type="linenumber">106</context>
@@ -8478,7 +8478,7 @@
       </trans-unit>
       <trans-unit id="policy.noRealmsAvailable" datatype="html">
         <source>No realms available for the selected resolvers.</source>
-        <target>Нет доступных доменов для выбранных resolver&apos;ов.</target>
+        <target>Нет доступных доменов для выбранных resolver'ов.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/policies/policy-edit-page/policy-panels/edit-conditions-tab/edit-user-conditions/edit-user-conditions.component.ts</context>
           <context context-type="linenumber">112</context>
@@ -8585,8 +8585,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="common.exampleQueryType" datatype="html">
-        <source>Example query: &apos;type: hotp serial: 123&apos;</source>
-        <target>Пример запроса: &apos;type: hotp serial: 123&apos;</target>
+        <source>Example query: 'type: hotp serial: 123'</source>
+        <target>Пример запроса: 'type: hotp serial: 123'</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/shared/container-add-token/container-add-token.component.html</context>
           <context context-type="linenumber">48</context>
@@ -8858,7 +8858,7 @@
       </trans-unit>
       <trans-unit id="welcome.accordingAgplv3" datatype="html">
         <source>According to the <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;https://github.com/privacyidea/privacyidea/blob/master/LICENSE&quot; target=&quot;_blank&quot; &gt;"/>AGPLv3<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a &gt;"/></source>
-        <target state="new">Согласно <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;https://github.com/privacyidea/privacyidea/blob/master/LICENSE&quot; target=&quot;_blank&quot; &gt;"/>AGPLv3 <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></target>
+        <target state="translated">Согласно <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;https://github.com/privacyidea/privacyidea/blob/master/LICENSE&quot; target=&quot;_blank&quot; &gt;"/>AGPLv3<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a &gt;"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/shared/welcome-dialog/welcome-dialog.component.html</context>
           <context context-type="linenumber">56</context>
@@ -9057,8 +9057,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="token.exampleQueryTransaction" datatype="html">
-        <source>Example query: &apos;transaction_id: 00000000000000000001&apos;</source>
-        <target>Пример запроса: &apos;transaction_id: 00000000000000000001&apos;</target>
+        <source>Example query: 'transaction_id: 00000000000000000001'</source>
+        <target>Пример запроса: 'transaction_id: 00000000000000000001'</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/token/challenges-table/challenges-table.component.html</context>
           <context context-type="linenumber">40</context>
@@ -9153,8 +9153,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="token.exampleQueryService" datatype="html">
-        <source>Example query: &apos;service_id: myService&apos;</source>
-        <target>Пример запроса: &apos;service_id: myService&apos;</target>
+        <source>Example query: 'service_id: myService'</source>
+        <target>Пример запроса: 'service_id: myService'</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/token/token-applications/token-applications-ssh/token-applications-ssh.component.html</context>
           <context context-type="linenumber">58</context>
@@ -9298,7 +9298,7 @@
       </trans-unit>
       <trans-unit id="token.tokenSerialLost" datatype="html">
         <source>Token <x id="SERIAL" equiv-text="this.data.tokenSerial()"/> is lost?</source>
-        <target state="new">Токен <x id="SERIAL" equiv-text="this.data.tokenSerial()"/> утрачен?</target>
+        <target state="translated">Токен <x id="SERIAL" equiv-text="this.data.tokenSerial()"/> утерян?</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/token/token-details/token-details-actions/lost-token/lost-token.component.ts</context>
           <context context-type="linenumber">48</context>
@@ -9306,7 +9306,7 @@
       </trans-unit>
       <trans-unit id="token.tokenMarkedAs" datatype="html">
         <source>Token marked as lost: <x id="SERIAL" equiv-text="this.data.tokenSerial()"/></source>
-        <target state="new">Токен помечен как утерянный:</target>
+        <target state="translated">Токен помечен как утерянный: <x id="SERIAL" equiv-text="this.data.tokenSerial()"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/token/token-details/token-details-actions/lost-token/lost-token.component.ts</context>
           <context context-type="linenumber">70</context>
@@ -9430,7 +9430,7 @@
       </trans-unit>
       <trans-unit id="token.rolloverToken" datatype="html">
         <source>Rollover Token <x id="SERIAL" equiv-text="this.token()?.serial || &quot;&quot;"/></source>
-        <target state="new">Пролонгация токена</target>
+        <target state="translated">Замена токена <x id="SERIAL" equiv-text="this.token()?.serial || &quot;&quot;"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/token/token-details/token-details-actions/token-rollover/token-rollover.component.ts</context>
           <context context-type="linenumber">63</context>
@@ -9834,7 +9834,7 @@
       </trans-unit>
       <trans-unit id="token.authenticationSuccessful" datatype="html">
         <source>Authentication successful. You would have been logged in as: <x id="USERNAME" equiv-text="username"/></source>
-        <target state="new">Аутентификация прошла успешно. Вы бы вошли в систему как:</target>
+        <target state="translated">Аутентификация прошла успешно. Вы бы вошли в систему как: <x id="USERNAME" equiv-text="username"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/token/token-details/token-details.component.ts</context>
           <context context-type="linenumber">534</context>
@@ -10233,8 +10233,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="token.example1d12h" datatype="html">
-        <source>For example &apos;1d&apos; or &apos;12h&apos;</source>
-        <target>Например, &apos;1d&apos; или &apos;12h&apos;</target>
+        <source>For example '1d' or '12h'</source>
+        <target>Например, '1d' или '12h'</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/token/token-enrollment/enroll-daypassword/enroll-daypassword.component.html</context>
           <context context-type="linenumber">86</context>
@@ -10253,8 +10253,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="token.timeWhichPassword" datatype="html">
-        <source>The time in which the password can be used. For example &apos;1d&apos; or &apos;12h&apos;.</source>
-        <target>Время, в течение которого можно использовать пароль. Например, &apos;1d&apos; или &apos;12h&apos;.</target>
+        <source>The time in which the password can be used. For example '1d' or '12h'.</source>
+        <target>Время, в течение которого можно использовать пароль. Например, '1d' или '12h'.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/token/token-enrollment/enroll-daypassword/enroll-daypassword.component.html</context>
           <context context-type="linenumber">89</context>
@@ -10454,7 +10454,7 @@
       </trans-unit>
       <trans-unit id="token.passwordRequired" datatype="html">
         <source>Password is required</source>
-        <target state="new">Пароль обязателен</target>
+        <target state="translated">Требуется пароль</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/token/token-enrollment/enroll-motp/enroll-motp.component.ts</context>
           <context context-type="linenumber">85</context>
@@ -10510,7 +10510,7 @@
       </trans-unit>
       <trans-unit id="token.passkeyCredential" datatype="html">
         <source>Passkey credential creation failed: <x id="MESSAGE" equiv-text="browserOrCredentialError.message"/></source>
-        <target state="new">Не удалось создать учетные данные Passkey: <x id="MESSAGE" equiv-text="browserOrCredentialError.message"/></target>
+        <target state="translated">Не удалось создать Passkey credential: <x id="MESSAGE" equiv-text="browserOrCredentialError.message"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/token/token-enrollment/enroll-passkey/enroll-passkey.component.ts</context>
           <context context-type="linenumber">208</context>
@@ -10574,7 +10574,7 @@
       </trans-unit>
       <trans-unit id="token.leastAnswersRequired" datatype="html">
         <source>At least <x id="INTERPOLATION" equiv-text="{{ configMinNumberOfAnswers() }}"/> answers are <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>required<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>.</source>
-        <target>Требуется <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>хотя бы <x id="INTERPOLATION" equiv-text="{{ configMinNumberOfAnswers() }}"/> ответов<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>.</target>
+        <target state="translated">Как минимум <x id="INTERPOLATION" equiv-text="{{ configMinNumberOfAnswers() }}"/> ответа(ов) являются <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>обязательными<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/token/token-enrollment/enroll-questionnaire/enroll-question.component.html</context>
           <context context-type="linenumber">63</context>
@@ -12229,8 +12229,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="token.exampleQueryType" datatype="html">
-        <source>Example query: &apos;type: hotp userid: 1000&apos;</source>
-        <target>Пример запроса: &apos;type: hotp userid: 1000&apos;</target>
+        <source>Example query: 'type: hotp userid: 1000'</source>
+        <target>Пример запроса: 'type: hotp userid: 1000'</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/token/token-table/token-table.component.html</context>
           <context context-type="linenumber">47</context>
@@ -12462,7 +12462,7 @@
       </trans-unit>
       <trans-unit id="realm.noResolvers" datatype="html">
         <source>No Resolvers</source>
-        <target>Нет resolver&apos;ов</target>
+        <target>Нет resolver'ов</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/user/realm-table/realm-table.component.html</context>
           <context context-type="linenumber">183</context>
@@ -12562,15 +12562,15 @@
       </trans-unit>
       <trans-unit id="realm.noResolversConfigured" datatype="html">
         <source>No resolvers configured.</source>
-        <target>Resolver&apos;ы не настроены.</target>
+        <target>Resolver'ы не настроены.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/user/realm-table/realm-table.component.ts</context>
           <context context-type="linenumber">528</context>
         </context-group>
       </trans-unit>
       <trans-unit id="realm.realmUpdated" datatype="html">
-        <source>Realm &quot;<x id="REALM" equiv-text="realmName"/>&quot; updated.</source>
-        <target state="new">Домен &quot;<x id="REALM" equiv-text="realmName"/>&quot; обновлён.</target>
+        <source>Realm "<x id="REALM" equiv-text="realmName"/>" updated.</source>
+        <target state="new">Домен "<x id="REALM" equiv-text="realmName"/>" обновлён.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/user/realm-table/realm-table.component.ts</context>
           <context context-type="linenumber">555</context>
@@ -12593,8 +12593,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="realm.realmDeleted" datatype="html">
-        <source>Realm &quot;<x id="REALM" equiv-text="realmName"/>&quot; deleted.</source>
-        <target state="new">Домен &quot;<x id="REALM" equiv-text="realmName"/>&quot; удалён.</target>
+        <source>Realm "<x id="REALM" equiv-text="realmName"/>" deleted.</source>
+        <target state="new">Домен "<x id="REALM" equiv-text="realmName"/>" удалён.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/user/realm-table/realm-table.component.ts</context>
           <context context-type="linenumber">633</context>
@@ -12609,8 +12609,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="realm.realmSetAsDefault" datatype="html">
-        <source>Realm &quot;<x id="NAME" equiv-text="row.name"/>&quot; set as default.</source>
-        <target state="new">Домен &quot;<x id="NAME" equiv-text="row.name"/>&quot; установлен по умолчанию.</target>
+        <source>Realm "<x id="NAME" equiv-text="row.name"/>" set as default.</source>
+        <target state="new">Домен "<x id="NAME" equiv-text="row.name"/>" установлен по умолчанию.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/user/realm-table/realm-table.component.ts</context>
           <context context-type="linenumber">607</context>
@@ -12802,7 +12802,7 @@
       </trans-unit>
       <trans-unit id="user.customAttributes" datatype="html">
         <source>Custom Attributes</source>
-        <target state="new">Пользовательские атрибуты:</target>
+        <target state="translated">Пользовательские атрибуты</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/user/user-details/user-details.component.html</context>
           <context context-type="linenumber">194</context>
@@ -13043,7 +13043,7 @@
         </context-group>
       </trans-unit>
       <trans-unit id="resolver.keyGroupSName" datatype="html">
-        <source>Key of the group&apos;s name in the user store response.</source>
+        <source>Key of the group's name in the user store response.</source>
         <target>Ключ имени группы в ответе хранилища пользователей.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/user/user-new-resolver/http-resolver/http-groups-attribute/http-groups-attribute.component.html</context>
@@ -13439,7 +13439,7 @@
         </context-group>
       </trans-unit>
       <trans-unit id="resolver.credentialType" datatype="html">
-        <source>This credential type does not support to check the user&apos;s password. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/> Specify the path to the private key file of the servers certificate. If you use an encrypted key, add the password here, otherwise leave the field empty. The server certificate must be uploaded in Entra&apos;s app registration as client credential.</source>
+        <source>This credential type does not support to check the user's password. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/> Specify the path to the private key file of the servers certificate. If you use an encrypted key, add the password here, otherwise leave the field empty. The server certificate must be uploaded in Entra's app registration as client credential.</source>
         <target>Этот тип учётных данных не поддерживает проверку пароля пользователя. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/> Укажите путь к файлу закрытого ключа сертификата сервера. Если вы используете зашифрованный ключ, добавьте здесь пароль, иначе оставьте поле пустым. Сертификат сервера должен быть загружен в регистрацию приложения Entra как учётные данные клиента.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/user/user-new-resolver/http-resolver/http-resolver.component.html</context>
@@ -13532,7 +13532,7 @@
       </trans-unit>
       <trans-unit id="resolver.possibleTags" datatype="html">
         <source>Possible tags: <x id="TAGS" equiv-text="tags"/></source>
-        <target state="new">Возможные теги:</target>
+        <target state="translated">Возможные теги: <x id="TAGS" equiv-text="tags"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/user/user-new-resolver/http-resolver/http-resolver.component.ts</context>
           <context context-type="linenumber">356</context>
@@ -13899,7 +13899,7 @@
         </context-group>
       </trans-unit>
       <trans-unit id="resolver.groupAttribute" datatype="html">
-        <source>Group attribute defining the group&apos;s name, which should be stored in the user info.</source>
+        <source>Group attribute defining the group's name, which should be stored in the user info.</source>
         <target>Атрибут группы, определяющий имя группы, которое должно храниться в информации о пользователе.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/user/user-new-resolver/ldap-resolver/ldap-resolver.component.html</context>
@@ -14212,7 +14212,7 @@
       </trans-unit>
       <trans-unit id="resolver.userResolverEditor" datatype="html">
         <source>User Resolver Editor</source>
-        <target>Редактор resolver&apos;а пользователей</target>
+        <target>Редактор resolver'а пользователей</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/user/user-new-resolver/user-new-resolver.component.html</context>
           <context context-type="linenumber">20</context>
@@ -14236,7 +14236,7 @@
       </trans-unit>
       <trans-unit id="resolver.resolverName" datatype="html">
         <source>Resolver Name</source>
-        <target>Имя resolver&apos;а</target>
+        <target>Имя resolver'а</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/user/user-new-resolver/user-new-resolver.component.html</context>
           <context context-type="linenumber">45</context>
@@ -14244,7 +14244,7 @@
       </trans-unit>
       <trans-unit id="resolver.changeConfiguration" datatype="html">
         <source>Change the configuration of the selected resolver.</source>
-        <target>Измените конфигурацию выбранного resolver&apos;а.</target>
+        <target>Измените конфигурацию выбранного resolver'а.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/user/user-new-resolver/user-new-resolver.component.html</context>
           <context context-type="linenumber">48</context>
@@ -14260,7 +14260,7 @@
       </trans-unit>
       <trans-unit id="resolver.resolverNameRequired" datatype="html">
         <source>Resolver name is <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>required<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>.</source>
-        <target>Имя resolver&apos;а <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>обязательно<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>.</target>
+        <target>Имя resolver'а <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>обязательно<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/user/user-new-resolver/user-new-resolver.component.html</context>
           <context context-type="linenumber">62</context>
@@ -14268,7 +14268,7 @@
       </trans-unit>
       <trans-unit id="resolver.resolverNameContains" datatype="html">
         <source>Resolver name contains <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>invalid characters<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>. Only alphanumeric characters, dots, underscores and hyphens are allowed.</source>
-        <target state="new">Имя resolver&apos;а содержит <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>недопустимые символы<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> . Разрешены только буквенно-цифровые символы, точки, подчёркивания и дефисы.</target>
+        <target state="new">Имя resolver'а содержит <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>недопустимые символы<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> . Разрешены только буквенно-цифровые символы, точки, подчёркивания и дефисы.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/user/user-new-resolver/user-new-resolver.component.html</context>
           <context context-type="linenumber">66</context>
@@ -14292,7 +14292,7 @@
       </trans-unit>
       <trans-unit id="resolver.quickResolver" datatype="html">
         <source>Quick Resolver Test</source>
-        <target>Быстрый тест resolver&apos;а</target>
+        <target>Быстрый тест resolver'а</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/user/user-new-resolver/user-new-resolver.component.html</context>
           <context context-type="linenumber">132</context>
@@ -14308,7 +14308,7 @@
       </trans-unit>
       <trans-unit id="resolver.pleaseEnterResolver" datatype="html">
         <source>Please enter a resolver name.</source>
-        <target>Введите имя resolver&apos;а.</target>
+        <target>Введите имя resolver'а.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/user/user-new-resolver/user-new-resolver.component.ts</context>
           <context context-type="linenumber">242</context>
@@ -14316,7 +14316,7 @@
       </trans-unit>
       <trans-unit id="resolver.pleaseSelectResolver" datatype="html">
         <source>Please select a resolver type.</source>
-        <target>Выберите тип resolver&apos;а.</target>
+        <target>Выберите тип resolver'а.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/user/user-new-resolver/user-new-resolver.component.ts</context>
           <context context-type="linenumber">246</context>
@@ -14327,16 +14327,16 @@
         </context-group>
       </trans-unit>
       <trans-unit id="resolver.resolverUpdated" datatype="html">
-        <source>Resolver &quot;<x id="NAME" equiv-text="name"/>&quot; updated.</source>
-        <target state="new">Resolver &quot;<x id="NAME" equiv-text="name"/>&quot; обновлён.</target>
+        <source>Resolver "<x id="NAME" equiv-text="name"/>" updated.</source>
+        <target state="new">Resolver "<x id="NAME" equiv-text="name"/>" обновлён.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/user/user-new-resolver/user-new-resolver.component.ts</context>
           <context context-type="linenumber">270</context>
         </context-group>
       </trans-unit>
       <trans-unit id="resolver.resolverCreated" datatype="html">
-        <source>Resolver &quot;<x id="NAME" equiv-text="name"/>&quot; created.</source>
-        <target state="new">Resolver &quot;<x id="NAME" equiv-text="name"/>&quot; создан.</target>
+        <source>Resolver "<x id="NAME" equiv-text="name"/>" created.</source>
+        <target state="new">Resolver "<x id="NAME" equiv-text="name"/>" создан.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/user/user-new-resolver/user-new-resolver.component.ts</context>
           <context context-type="linenumber">271</context>
@@ -14356,7 +14356,7 @@
       </trans-unit>
       <trans-unit id="resolver.resolverTestExecuted" datatype="html">
         <source>Resolver test executed: <x id="DETAIL" equiv-text="detail"/></source>
-        <target state="new">Тест resolver&apos;а выполнен: <x id="DETAIL" equiv-text="detail"/></target>
+        <target state="new">Тест resolver'а выполнен: <x id="DETAIL" equiv-text="detail"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/user/user-new-resolver/user-new-resolver.component.ts</context>
           <context context-type="linenumber">370</context>
@@ -14408,7 +14408,7 @@
       </trans-unit>
       <trans-unit id="resolver.userResolvers" datatype="html">
         <source>User Resolvers Layout</source>
-        <target>Макет resolver&apos;ов пользователей</target>
+        <target>Макет resolver'ов пользователей</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/user/user-resolver/user-resolver.component.html</context>
           <context context-type="linenumber">20</context>
@@ -14416,7 +14416,7 @@
       </trans-unit>
       <trans-unit id="resolver.filterResolvers" datatype="html">
         <source>Filter Resolvers...</source>
-        <target>Фильтровать resolver&apos;ы...</target>
+        <target>Фильтровать resolver'ы...</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/user/user-resolver/user-resolver.component.html</context>
           <context context-type="linenumber">32</context>
@@ -14459,8 +14459,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="resolver.resolverDeleted" datatype="html">
-        <source>Resolver &quot;<x id="RESOLVER" equiv-text="name"/>&quot; deleted.</source>
-        <target state="new">Resolver &quot;<x id="RESOLVER" equiv-text="resolver.resolvername"/>&quot; удалён.</target>
+        <source>Resolver "<x id="RESOLVER" equiv-text="name"/>" deleted.</source>
+        <target state="new">Resolver "<x id="RESOLVER" equiv-text="resolver.resolvername"/>" удалён.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/user/user-new-resolver/user-new-resolver.component.ts</context>
           <context context-type="linenumber">444</context>
@@ -14471,8 +14471,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="resolver.resolverNotFound" datatype="html">
-        <source>Resolver &quot;<x id="RESOLVER" equiv-text="name"/>&quot; not found.</source>
-        <target state="new">Resolver &quot;<x id="RESOLVER" equiv-text="resolver.resolvername"/>&quot; не найден.</target>
+        <source>Resolver "<x id="RESOLVER" equiv-text="name"/>" not found.</source>
+        <target state="new">Resolver "<x id="RESOLVER" equiv-text="resolver.resolvername"/>" не найден.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/user/user-new-resolver/user-new-resolver.component.ts</context>
           <context context-type="linenumber">450</context>
@@ -14756,7 +14756,7 @@
       </trans-unit>
       <trans-unit id="caConnector.failedSaveCaConnector" datatype="html">
         <source>Failed to save CA connector. <x id="MESSAGE" equiv-text="message"/></source>
-        <target state="new">Не удалось сохранить коннектор CA.</target>
+        <target state="translated">Не удалось сохранить CA Connector. <x id="MESSAGE" equiv-text="message"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/services/ca-connector/ca-connector.service.ts</context>
           <context context-type="linenumber">112</context>
@@ -14772,7 +14772,7 @@
       </trans-unit>
       <trans-unit id="caConnector.failedDeleteCa" datatype="html">
         <source>Failed to delete CA connector. <x id="MESSAGE" equiv-text="message"/></source>
-        <target state="new">Не удалось удалить коннектор CA.</target>
+        <target state="translated">Не удалось удалить CA Connector. <x id="MESSAGE" equiv-text="message"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/services/ca-connector/ca-connector.service.ts</context>
           <context context-type="linenumber">135</context>
@@ -14780,7 +14780,7 @@
       </trans-unit>
       <trans-unit id="caConnector.failedFetchCa" datatype="html">
         <source>Failed to fetch CA specific options. <x id="MESSAGE" equiv-text="message"/></source>
-        <target state="new">Не удалось получить параметры, специфичные для CA.</target>
+        <target state="translated">Не удалось получить настройки CA. <x id="MESSAGE" equiv-text="message"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/services/ca-connector/ca-connector.service.ts</context>
           <context context-type="linenumber">153</context>
@@ -14804,7 +14804,7 @@
       </trans-unit>
       <trans-unit id="common.errors" datatype="html">
         <source><x id="COUNT" equiv-text="count"/> errors:</source>
-        <target state="new">ошибок: <x id="COUNT" equiv-text="count"/></target>
+        <target state="translated"><x id="COUNT" equiv-text="count"/> ошибок:</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/services/notification/notification.service.ts</context>
           <context context-type="linenumber">137</context>
@@ -14820,7 +14820,7 @@
       </trans-unit>
       <trans-unit id="common.warnings" datatype="html">
         <source><x id="COUNT" equiv-text="count"/> warnings:</source>
-        <target state="new">предупреждений: <x id="COUNT" equiv-text="count"/></target>
+        <target state="translated"><x id="COUNT" equiv-text="count"/> предупреждений:</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/services/notification/notification.service.ts</context>
           <context context-type="linenumber">145</context>
@@ -14836,7 +14836,7 @@
       </trans-unit>
       <trans-unit id="common.successes" datatype="html">
         <source><x id="COUNT" equiv-text="count"/> successes:</source>
-        <target state="new">успешно: <x id="COUNT" equiv-text="count"/></target>
+        <target state="translated"><x id="COUNT" equiv-text="count"/> успешных операций:</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/services/notification/notification.service.ts</context>
           <context context-type="linenumber">153</context>
@@ -15140,7 +15140,7 @@
       </trans-unit>
       <trans-unit id="policy.savingPolicyFailed" datatype="html">
         <source>Saving policy failed<x id="DETAIL" equiv-text="errorMessage"/></source>
-        <target state="new">Не удалось сохранить политику</target>
+        <target state="translated">Не удалось сохранить политику<x id="DETAIL" equiv-text="errorMessage"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/services/policies/policies.service.ts</context>
           <context context-type="linenumber">720</context>
@@ -15172,7 +15172,7 @@
       </trans-unit>
       <trans-unit id="piServer.failedSavePrivacyidea" datatype="html">
         <source>Failed to save privacyIDEA server. <x id="MESSAGE" equiv-text="message"/></source>
-        <target state="new">Не удалось сохранить сервер privacyIDEA.</target>
+        <target state="translated">Не удалось сохранить сервер privacyIDEA. <x id="MESSAGE" equiv-text="message"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/services/privacyidea-server/privacyidea-server.service.ts</context>
           <context context-type="linenumber">119</context>
@@ -15188,7 +15188,7 @@
       </trans-unit>
       <trans-unit id="piServer.failedDeletePrivacyidea" datatype="html">
         <source>Failed to delete privacyIDEA server. <x id="MESSAGE" equiv-text="message"/></source>
-        <target state="new">Не удалось удалить сервер privacyIDEA.</target>
+        <target state="translated">Не удалось удалить сервер privacyIDEA. <x id="MESSAGE" equiv-text="message"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/services/privacyidea-server/privacyidea-server.service.ts</context>
           <context context-type="linenumber">142</context>
@@ -15212,7 +15212,7 @@
       </trans-unit>
       <trans-unit id="piServer.failedSendTest" datatype="html">
         <source>Failed to send test request. <x id="MESSAGE" equiv-text="message"/></source>
-        <target state="new">Не удалось отправить тестовый запрос.</target>
+        <target state="translated">Не удалось отправить тестовый запрос. <x id="MESSAGE" equiv-text="message"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/services/privacyidea-server/privacyidea-server.service.ts</context>
           <context context-type="linenumber">163</context>
@@ -15228,7 +15228,7 @@
       </trans-unit>
       <trans-unit id="radiusServer.failedSaveRadius" datatype="html">
         <source>Failed to save RADIUS server. <x id="MESSAGE" equiv-text="message"/></source>
-        <target state="new">Не удалось сохранить сервер RADIUS.</target>
+        <target state="translated">Не удалось сохранить сервер RADIUS. <x id="MESSAGE" equiv-text="message"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/services/radius-server/radius-server.service.ts</context>
           <context context-type="linenumber">105</context>
@@ -15252,7 +15252,7 @@
       </trans-unit>
       <trans-unit id="radiusServer.failedSendRadius" datatype="html">
         <source>Failed to send RADIUS test request. <x id="MESSAGE" equiv-text="message"/></source>
-        <target state="new">Не удалось отправить тестовый запрос RADIUS.</target>
+        <target state="translated">Не удалось отправить тестовый запрос RADIUS. <x id="MESSAGE" equiv-text="message"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/services/radius-server/radius-server.service.ts</context>
           <context context-type="linenumber">130</context>
@@ -15268,7 +15268,7 @@
       </trans-unit>
       <trans-unit id="radiusServer.failedDeleteRadius" datatype="html">
         <source>Failed to delete RADIUS server. <x id="MESSAGE" equiv-text="message"/></source>
-        <target state="new">Не удалось удалить сервер RADIUS.</target>
+        <target state="translated">Не удалось удалить сервер RADIUS. <x id="MESSAGE" equiv-text="message"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/services/radius-server/radius-server.service.ts</context>
           <context context-type="linenumber">154</context>
@@ -15284,7 +15284,7 @@
       </trans-unit>
       <trans-unit id="serviceId.failedSaveService" datatype="html">
         <source>Failed to save service ID. <x id="MESSAGE" equiv-text="message"/></source>
-        <target state="new">Не удалось сохранить идентификатор службы.</target>
+        <target state="translated">Не удалось сохранить Service ID. <x id="MESSAGE" equiv-text="message"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/services/service-id/service-id.service.ts</context>
           <context context-type="linenumber">113</context>
@@ -15300,7 +15300,7 @@
       </trans-unit>
       <trans-unit id="serviceId.failedDeleteService" datatype="html">
         <source>Failed to delete service ID. <x id="MESSAGE" equiv-text="message"/></source>
-        <target state="new">Не удалось удалить идентификатор службы.</target>
+        <target state="translated">Не удалось удалить Service ID. <x id="MESSAGE" equiv-text="message"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/services/service-id/service-id.service.ts</context>
           <context context-type="linenumber">133</context>
@@ -15324,7 +15324,7 @@
       </trans-unit>
       <trans-unit id="smsGateway.failedSaveSms" datatype="html">
         <source>Failed to save SMS gateway. <x id="MESSAGE" equiv-text="message"/></source>
-        <target state="new">Не удалось сохранить SMS-шлюз.</target>
+        <target state="translated">Не удалось сохранить SMS-шлюз. <x id="MESSAGE" equiv-text="message"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/services/sms-gateway/sms-gateway.service.ts</context>
           <context context-type="linenumber">128</context>
@@ -15340,7 +15340,7 @@
       </trans-unit>
       <trans-unit id="smsGateway.failedDeleteSms" datatype="html">
         <source>Failed to delete SMS gateway. <x id="MESSAGE" equiv-text="message"/></source>
-        <target state="new">Не удалось удалить SMS-шлюз.</target>
+        <target state="translated">Не удалось удалить SMS-шлюз. <x id="MESSAGE" equiv-text="message"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/services/sms-gateway/sms-gateway.service.ts</context>
           <context context-type="linenumber">148</context>
@@ -15356,7 +15356,7 @@
       </trans-unit>
       <trans-unit id="smtpServer.failedSaveSmtp" datatype="html">
         <source>Failed to save SMTP server. <x id="MESSAGE" equiv-text="message"/></source>
-        <target state="new">Не удалось сохранить SMTP-сервер.</target>
+        <target state="translated">Не удалось сохранить SMTP-сервер. <x id="MESSAGE" equiv-text="message"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/services/smtp/smtp.service.ts</context>
           <context context-type="linenumber">120</context>
@@ -15372,7 +15372,7 @@
       </trans-unit>
       <trans-unit id="smtpServer.failedSendTest" datatype="html">
         <source>Failed to send test email. <x id="MESSAGE" equiv-text="message"/></source>
-        <target state="new">Не удалось отправить тестовое письмо.</target>
+        <target state="translated">Не удалось отправить тестовый email. <x id="MESSAGE" equiv-text="message"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/services/smtp/smtp.service.ts</context>
           <context context-type="linenumber">139</context>
@@ -15388,7 +15388,7 @@
       </trans-unit>
       <trans-unit id="smtpServer.failedDeleteSmtp" datatype="html">
         <source>Failed to delete SMTP server. <x id="MESSAGE" equiv-text="message"/></source>
-        <target state="new">Не удалось удалить SMTP-сервер.</target>
+        <target state="translated">Не удалось удалить SMTP-сервер. <x id="MESSAGE" equiv-text="message"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/services/smtp/smtp.service.ts</context>
           <context context-type="linenumber">161</context>
@@ -15404,7 +15404,7 @@
       </trans-unit>
       <trans-unit id="tokenGroup.failedSaveTokengroup" datatype="html">
         <source>Failed to save tokengroup. <x id="MESSAGE" equiv-text="message"/></source>
-        <target state="new">Не удалось сохранить группу токенов.</target>
+        <target state="translated">Не удалось сохранить группу токенов. <x id="MESSAGE" equiv-text="message"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/services/tokengroup/tokengroup.service.ts</context>
           <context context-type="linenumber">104</context>
@@ -15420,7 +15420,7 @@
       </trans-unit>
       <trans-unit id="tokenGroup.failedDeleteTokengroup" datatype="html">
         <source>Failed to delete tokengroup. <x id="MESSAGE" equiv-text="message"/></source>
-        <target state="new">Не удалось удалить группу токенов.</target>
+        <target state="translated">Не удалось удалить группу токенов. <x id="MESSAGE" equiv-text="message"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/services/tokengroup/tokengroup.service.ts</context>
           <context context-type="linenumber">124</context>
@@ -15428,7 +15428,7 @@
       </trans-unit>
       <trans-unit id="user.failedSetUser" datatype="html">
         <source>Failed to set user attribute. <x id="MESSAGE" equiv-text="message"/></source>
-        <target state="new">Не удалось задать атрибут пользователя.</target>
+        <target state="translated">Не удалось установить атрибут пользователя. <x id="MESSAGE" equiv-text="message"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/services/user/user.service.ts</context>
           <context context-type="linenumber">610</context>
@@ -15436,7 +15436,7 @@
       </trans-unit>
       <trans-unit id="user.failedDeleteUserAttribute" datatype="html">
         <source>Failed to delete user attribute. <x id="MESSAGE" equiv-text="message"/></source>
-        <target state="new">Не удалось удалить атрибут пользователя.</target>
+        <target state="translated">Не удалось удалить атрибут пользователя. <x id="MESSAGE" equiv-text="message"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/services/user/user.service.ts</context>
           <context context-type="linenumber">628</context>
@@ -15444,7 +15444,7 @@
       </trans-unit>
       <trans-unit id="user.failedCreateUser" datatype="html">
         <source>Failed to create user <x id="USERNAME" equiv-text="userData.username"/>. <x id="MESSAGE" equiv-text="message"/></source>
-        <target state="new">Не удалось создать пользователя <x id="USERNAME" equiv-text="userData.username"/>.</target>
+        <target state="translated">Не удалось создать пользователя <x id="USERNAME" equiv-text="userData.username"/>. <x id="MESSAGE" equiv-text="message"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/services/user/user.service.ts</context>
           <context context-type="linenumber">648</context>
@@ -15452,7 +15452,7 @@
       </trans-unit>
       <trans-unit id="user.failedUpdateUser" datatype="html">
         <source>Failed to update user <x id="USERNAME" equiv-text="userData.username"/>. <x id="MESSAGE" equiv-text="message"/></source>
-        <target state="new">Не удалось обновить пользователя <x id="USERNAME" equiv-text="userData.username"/>.</target>
+        <target state="translated">Не удалось обновить пользователя <x id="USERNAME" equiv-text="userData.username"/>. <x id="MESSAGE" equiv-text="message"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/services/user/user.service.ts</context>
           <context context-type="linenumber">664</context>
@@ -15460,7 +15460,7 @@
       </trans-unit>
       <trans-unit id="user.failedDeleteUser" datatype="html">
         <source>Failed to delete user <x id="USERNAME" equiv-text="username"/>. <x id="MESSAGE" equiv-text="message"/></source>
-        <target state="new">Не удалось удалить пользователя <x id="USERNAME" equiv-text="username"/>.</target>
+        <target state="translated">Не удалось удалить пользователя <x id="USERNAME" equiv-text="username"/>. <x id="MESSAGE" equiv-text="message"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/services/user/user.service.ts</context>
           <context context-type="linenumber">679</context>
@@ -15979,7 +15979,7 @@
         </context-group>
       </trans-unit>
       <trans-unit id="token.passkeyPhishing" datatype="html">
-        <source>A passkey is a phishing-resistant credential that uses public-key cryptography to prove your identity without sharing a secret. The private key is stored securely on your authenticator (like a phone or hardware token) and is unlocked for each sign-in using your device&apos;s PIN, fingerprint, or face scan.</source>
+        <source>A passkey is a phishing-resistant credential that uses public-key cryptography to prove your identity without sharing a secret. The private key is stored securely on your authenticator (like a phone or hardware token) and is unlocked for each sign-in using your device's PIN, fingerprint, or face scan.</source>
         <target>Passkey — это устойчивые к фишингу учётные данные, которые используют криптографию с открытым ключом для подтверждения вашей личности без передачи секрета. Закрытый ключ надёжно хранится в вашем аутентификаторе (например, в телефоне или аппаратном токене) и разблокируется при каждом входе с помощью PIN-кода, отпечатка пальца или распознавания лица вашего устройства.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/utils/token.utils.ts</context>
@@ -16148,7 +16148,7 @@
       </trans-unit>
       <trans-unit id="dashboard.removeWidget" datatype="html">
         <source>Remove widget</source>
-        <target state="new">Remove widget</target>
+        <target state="translated">Удалить виджет</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/dashboard/widget-frame/widget-frame.component.html</context>
           <context context-type="linenumber">86</context>
@@ -16156,7 +16156,7 @@
       </trans-unit>
       <trans-unit id="dashboard.addWidget" datatype="html">
         <source>Add Widget</source>
-        <target state="new">Add Widget</target>
+        <target state="translated">Добавить виджет</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/dashboard/widget-palette/widget-palette.component.html</context>
           <context context-type="linenumber">26</context>
@@ -16164,7 +16164,7 @@
       </trans-unit>
       <trans-unit id="dashboard.date" datatype="html">
         <source>Date</source>
-        <target state="new">Date</target>
+        <target state="translated">Дата</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/dashboard/widgets/administration-widget/administration-widget.component.html</context>
           <context context-type="linenumber">30</context>
@@ -16172,7 +16172,7 @@
       </trans-unit>
       <trans-unit id="dashboard.detail" datatype="html">
         <source>Detail</source>
-        <target state="new">Detail</target>
+        <target state="translated">Подробности</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/dashboard/widgets/administration-widget/administration-widget.component.html</context>
           <context context-type="linenumber">51</context>
@@ -16300,7 +16300,7 @@
       </trans-unit>
       <trans-unit id="dashboard.activePolicies" datatype="html">
         <source>Active Policies</source>
-        <target state="new">Active Policies</target>
+        <target state="translated">Активные политики</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/dashboard/widgets/policies-widget/policies-widget.component.html</context>
           <context context-type="linenumber">24</context>
@@ -16308,7 +16308,7 @@
       </trans-unit>
       <trans-unit id="dashboard.inactivePolicies" datatype="html">
         <source>Inactive Policies</source>
-        <target state="new">Inactive Policies</target>
+        <target state="translated">Неактивные политики</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/dashboard/widgets/policies-widget/policies-widget.component.html</context>
           <context context-type="linenumber">38</context>
@@ -16400,7 +16400,7 @@
       </trans-unit>
       <trans-unit id="dashboard.total" datatype="html">
         <source>Total</source>
-        <target state="new">Total</target>
+        <target state="translated">Всего</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/dashboard/widgets/tokens-widget/tokens-widget.component.html</context>
           <context context-type="linenumber">69</context>
@@ -16624,7 +16624,7 @@
       </trans-unit>
       <trans-unit id="nav.editDashboard" datatype="html">
         <source>Edit Dashboard</source>
-        <target state="new">Edit Dashboard</target>
+        <target state="translated">Редактировать Dashboard</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/layout/navigation/navigation.component.html</context>
           <context context-type="linenumber">269</context>
@@ -16723,8 +16723,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="machine.machineResolverNot" datatype="html">
-        <source>Machine resolver &quot;<x id="NAME" equiv-text="name"/>&quot; not found.</source>
-        <target state="new">Machine resolver &quot;<x id="NAME" equiv-text="name"/>&quot; not found.</target>
+        <source>Machine resolver "<x id="NAME" equiv-text="name"/>" not found.</source>
+        <target state="new">Machine resolver "<x id="NAME" equiv-text="name"/>" not found.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/machine-resolver/machine-resolver-details/machine-resolver-details.component.ts</context>
           <context context-type="linenumber">159</context>
@@ -16783,8 +16783,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="token.exampleQuerySerial" datatype="html">
-        <source>Example query: &apos;serial: OATH0001&apos;</source>
-        <target state="new">Example query: &apos;serial: OATH0001&apos;</target>
+        <source>Example query: 'serial: OATH0001'</source>
+        <target state="new">Example query: 'serial: OATH0001'</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/token/token-applications/token-applications-offline/token-applications-offline.component.html</context>
           <context context-type="linenumber">52</context>
@@ -16839,8 +16839,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="realm.deleteRealmDialogTitle" datatype="html">
-        <source>Delete Realm &quot;<x id="REALM" equiv-text="this.data.realmName"/>&quot;</source>
-        <target state="new">Delete Realm &quot;<x id="REALM" equiv-text="this.data.realmName"/>&quot;</target>
+        <source>Delete Realm "<x id="REALM" equiv-text="this.data.realmName"/>"</source>
+        <target state="new">Delete Realm "<x id="REALM" equiv-text="this.data.realmName"/>"</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/user/realm-table/realm-delete-attributes-dialog/realm-delete-attributes-dialog.component.ts</context>
           <context context-type="linenumber">34</context>
@@ -16927,8 +16927,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="user.searchAllColumns" datatype="html">
-        <source>Search all columns, or by column e.g. &apos;root email: @acme&apos;</source>
-        <target state="new">Search all columns, or by column e.g. &apos;root email: @acme&apos;</target>
+        <source>Search all columns, or by column e.g. 'root email: @acme'</source>
+        <target state="new">Search all columns, or by column e.g. 'root email: @acme'</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/user/user-table/user-table.component.html</context>
           <context context-type="linenumber">69</context>
@@ -17007,8 +17007,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="common.quoteValuesContain" datatype="html">
-        <source>Quote values that contain spaces or a colon, e.g. description: &quot;my note&quot;.</source>
-        <target state="new">Quote values that contain spaces or a colon, e.g. description: &quot;my note&quot;.</target>
+        <source>Quote values that contain spaces or a colon, e.g. description: "my note".</source>
+        <target state="new">Quote values that contain spaces or a colon, e.g. description: "my note".</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/utils/filter-hint.utils.ts</context>
           <context context-type="linenumber">34</context>
@@ -18719,8 +18719,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="dashboard.expiredTheSubscriptionSEnd" datatype="html">
-        <source>Expired: the subscription&apos;s end date has passed.</source>
-        <target state="new">Expired: the subscription&apos;s end date has passed.</target>
+        <source>Expired: the subscription's end date has passed.</source>
+        <target state="new">Expired: the subscription's end date has passed.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/dashboard/widgets/subscriptions-widget/subscriptions-widget.component.ts</context>
           <context context-type="linenumber">356</context>
@@ -19547,8 +19547,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="apiClient.apiClientNamed" datatype="html">
-        <source>API Client &quot;<x id="INTERPOLATION" equiv-text="{{ apiClientModel().display_name }}"/>&quot;</source>
-        <target state="new">API Client &quot;<x id="INTERPOLATION" equiv-text="{{ apiClientModel().display_name }}"/>&quot;</target>
+        <source>API Client "<x id="INTERPOLATION" equiv-text="{{ apiClientModel().display_name }}"/>"</source>
+        <target state="new">API Client "<x id="INTERPOLATION" equiv-text="{{ apiClientModel().display_name }}"/>"</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/policies/api-clients/api-client-edit/api-client-edit.component.html</context>
           <context context-type="linenumber">25</context>
@@ -19647,8 +19647,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="apiClient.apiKeyFor" datatype="html">
-        <source>API key for &quot;<x id="INTERPOLATION" equiv-text="{{ issuedKey.displayName }}"/>&quot;</source>
-        <target state="new">API key for &quot;<x id="INTERPOLATION" equiv-text="{{ issuedKey.displayName }}"/>&quot;</target>
+        <source>API key for "<x id="INTERPOLATION" equiv-text="{{ issuedKey.displayName }}"/>"</source>
+        <target state="new">API key for "<x id="INTERPOLATION" equiv-text="{{ issuedKey.displayName }}"/>"</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/policies/api-clients/api-client-issued-key-banner/api-client-issued-key-banner.component.html</context>
           <context context-type="linenumber">22</context>
@@ -19679,8 +19679,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="apiClient.rememberedDevicesIntro" datatype="html">
-        <source>These are the active &quot;remember this device&quot; entries for this client. Revoking one invalidates that device&apos;s cookie immediately. The IP address and user agent are those of the API client&apos;s request, which for a centralised integration (e.g. an IdP) is the integration itself, not the end user&apos;s browser or device.</source>
-        <target state="new">These are the active &quot;remember this device&quot; entries for this client. Revoking one invalidates that device&apos;s cookie immediately. The IP address and user agent are those of the API client&apos;s request, which for a centralised integration (e.g. an IdP) is the integration itself, not the end user&apos;s browser or device.</target>
+        <source>These are the active "remember this device" entries for this client. Revoking one invalidates that device's cookie immediately. The IP address and user agent are those of the API client's request, which for a centralised integration (e.g. an IdP) is the integration itself, not the end user's browser or device.</source>
+        <target state="new">These are the active "remember this device" entries for this client. Revoking one invalidates that device's cookie immediately. The IP address and user agent are those of the API client's request, which for a centralised integration (e.g. an IdP) is the integration itself, not the end user's browser or device.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/policies/api-clients/api-client-remembered-devices/api-client-remembered-devices.component.html</context>
           <context context-type="linenumber">23</context>
@@ -19755,8 +19755,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="apiClient.revokeAllUserDevices" datatype="html">
-        <source>Revoke all of this user&apos;s remembered devices on this client</source>
-        <target state="new">Revoke all of this user&apos;s remembered devices on this client</target>
+        <source>Revoke all of this user's remembered devices on this client</source>
+        <target state="new">Revoke all of this user's remembered devices on this client</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/policies/api-clients/api-client-remembered-devices/api-client-remembered-devices.component.ts</context>
           <context context-type="linenumber">120</context>
@@ -20555,8 +20555,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="conditionalAccess.startsEnforcingImmediatelyCounts" datatype="html">
-        <source>&quot;<x id="INTERPOLATION" equiv-text="{{ data.policyNames[0] }}"/>&quot; starts enforcing immediately and counts only events from now on. Events recorded earlier are ignored.</source>
-        <target state="new">&quot;<x id="INTERPOLATION" equiv-text="{{ data.policyNames[0] }}"/>&quot; starts enforcing immediately and counts only events from now on. Events recorded earlier are ignored.</target>
+        <source>"<x id="INTERPOLATION" equiv-text="{{ data.policyNames[0] }}"/>" starts enforcing immediately and counts only events from now on. Events recorded earlier are ignored.</source>
+        <target state="new">"<x id="INTERPOLATION" equiv-text="{{ data.policyNames[0] }}"/>" starts enforcing immediately and counts only events from now on. Events recorded earlier are ignored.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/conditional-access/conditional-access-dry-run-off-dialog/conditional-access-dry-run-off-dialog.component.html</context>
           <context context-type="linenumber">29</context>
@@ -20571,8 +20571,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="conditionalAccess.alsoCountEventsAlready" datatype="html">
-        <source>Also count the events already in the policy&apos;s time window</source>
-        <target state="new">Also count the events already in the policy&apos;s time window</target>
+        <source>Also count the events already in the policy's time window</source>
+        <target state="new">Also count the events already in the policy's time window</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/conditional-access/conditional-access-dry-run-off-dialog/conditional-access-dry-run-off-dialog.component.html</context>
           <context context-type="linenumber">47</context>
@@ -20883,8 +20883,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="conditionalAccess.priorityAlreadyUsed" datatype="html">
-        <source>Priority <x id="INTERPOLATION" equiv-text="{{ editPolicy().priority }}"/> is already used by &quot;<x id="INTERPOLATION_1" equiv-text="{{ priorityConflict()?.name }}"/>&quot;.</source>
-        <target state="new">Priority <x id="INTERPOLATION" equiv-text="{{ editPolicy().priority }}"/> is already used by &quot;<x id="INTERPOLATION_1" equiv-text="{{ priorityConflict()?.name }}"/>&quot;.</target>
+        <source>Priority <x id="INTERPOLATION" equiv-text="{{ editPolicy().priority }}"/> is already used by "<x id="INTERPOLATION_1" equiv-text="{{ priorityConflict()?.name }}"/>".</source>
+        <target state="new">Priority <x id="INTERPOLATION" equiv-text="{{ editPolicy().priority }}"/> is already used by "<x id="INTERPOLATION_1" equiv-text="{{ priorityConflict()?.name }}"/>".</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/conditional-access/conditional-access-edit-page/conditional-access-edit-page.component.html</context>
           <context context-type="linenumber">306</context>
@@ -21355,8 +21355,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="conditionalAccess.actionNotAllowedPolicy" datatype="html">
-        <source>This action is not allowed for the policy&apos;s target. Choose a different action, or change the target.</source>
-        <target state="new">This action is not allowed for the policy&apos;s target. Choose a different action, or change the target.</target>
+        <source>This action is not allowed for the policy's target. Choose a different action, or change the target.</source>
+        <target state="new">This action is not allowed for the policy's target. Choose a different action, or change the target.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/conditional-access/conditional-access-edit-page/stages-list/stage-item/actions-list/action-item/conditional-access-action-item.component.html</context>
           <context context-type="linenumber">76</context>
@@ -21371,8 +21371,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="conditionalAccess.whenOffActionRuns" datatype="html">
-        <source>When off, this action runs once, when the count reaches the stage&apos;s threshold exactly. When on, it runs again on every further tracked event while the count stays at or above the threshold, until the policy escalates to the next stage. Deny defaults to on; the lock, email and block actions default to off.</source>
-        <target state="new">When off, this action runs once, when the count reaches the stage&apos;s threshold exactly. When on, it runs again on every further tracked event while the count stays at or above the threshold, until the policy escalates to the next stage. Deny defaults to on; the lock, email and block actions default to off.</target>
+        <source>When off, this action runs once, when the count reaches the stage's threshold exactly. When on, it runs again on every further tracked event while the count stays at or above the threshold, until the policy escalates to the next stage. Deny defaults to on; the lock, email and block actions default to off.</source>
+        <target state="new">When off, this action runs once, when the count reaches the stage's threshold exactly. When on, it runs again on every further tracked event while the count stays at or above the threshold, until the policy escalates to the next stage. Deny defaults to on; the lock, email and block actions default to off.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/conditional-access/conditional-access-edit-page/stages-list/stage-item/actions-list/action-item/conditional-access-action-item.component.html</context>
           <context context-type="linenumber">92</context>
@@ -21427,8 +21427,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="conditionalAccess.noSmtpServerNamed" datatype="html">
-        <source>No SMTP server named &quot;<x id="INTERPOLATION" equiv-text="{{ staleSmtpIdentifier() }}"/>&quot; is configured, so no email would be sent.</source>
-        <target state="new">No SMTP server named &quot;<x id="INTERPOLATION" equiv-text="{{ staleSmtpIdentifier() }}"/>&quot; is configured, so no email would be sent.</target>
+        <source>No SMTP server named "<x id="INTERPOLATION" equiv-text="{{ staleSmtpIdentifier() }}"/>" is configured, so no email would be sent.</source>
+        <target state="new">No SMTP server named "<x id="INTERPOLATION" equiv-text="{{ staleSmtpIdentifier() }}"/>" is configured, so no email would be sent.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/conditional-access/conditional-access-edit-page/stages-list/stage-item/actions-list/action-item/conditional-access-action-item.component.html</context>
           <context context-type="linenumber">200</context>
@@ -21459,8 +21459,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="conditionalAccess.addRBeforeClosing" datatype="html">
-        <source>Add <x id="START_TAG_CODE" ctype="x-code" equiv-text="&lt;code&gt;"/>!r<x id="CLOSE_TAG_CODE" ctype="x-code" equiv-text="&lt;/code&gt;"/> before the closing brace to insert the value&apos;s quoted form, e.g. <x id="START_TAG_CODE" ctype="x-code" equiv-text="&lt;code&gt;"/><x id="INTERPOLATION" equiv-text="{{ &quot;{&quot; }}"/> policy!r<x id="INTERPOLATION_1" equiv-text="{{ &quot;}&quot; }}"/><x id="CLOSE_TAG_CODE" ctype="x-code" equiv-text="&lt;/code&gt;"/> renders <x id="START_TAG_CODE" ctype="x-code" equiv-text="&lt;code&gt;"/>&apos;Brute Force PIN Lock&apos;<x id="CLOSE_TAG_CODE" ctype="x-code" equiv-text="&lt;/code&gt;"/> instead of <x id="START_TAG_CODE" ctype="x-code" equiv-text="&lt;code&gt;"/>Brute Force PIN Lock<x id="CLOSE_TAG_CODE" ctype="x-code" equiv-text="&lt;/code&gt;"/>.</source>
-        <target state="new">Add <x id="START_TAG_CODE" ctype="x-code" equiv-text="&lt;code&gt;"/>!r<x id="CLOSE_TAG_CODE" ctype="x-code" equiv-text="&lt;/code&gt;"/> before the closing brace to insert the value&apos;s quoted form, e.g. <x id="START_TAG_CODE" ctype="x-code" equiv-text="&lt;code&gt;"/><x id="INTERPOLATION" equiv-text="{{ &quot;{&quot; }}"/> policy!r<x id="INTERPOLATION_1" equiv-text="{{ &quot;}&quot; }}"/><x id="CLOSE_TAG_CODE" ctype="x-code" equiv-text="&lt;/code&gt;"/> renders <x id="START_TAG_CODE" ctype="x-code" equiv-text="&lt;code&gt;"/>&apos;Brute Force PIN Lock&apos;<x id="CLOSE_TAG_CODE" ctype="x-code" equiv-text="&lt;/code&gt;"/> instead of <x id="START_TAG_CODE" ctype="x-code" equiv-text="&lt;code&gt;"/>Brute Force PIN Lock<x id="CLOSE_TAG_CODE" ctype="x-code" equiv-text="&lt;/code&gt;"/>.</target>
+        <source>Add <x id="START_TAG_CODE" ctype="x-code" equiv-text="&lt;code&gt;"/>!r<x id="CLOSE_TAG_CODE" ctype="x-code" equiv-text="&lt;/code&gt;"/> before the closing brace to insert the value's quoted form, e.g. <x id="START_TAG_CODE" ctype="x-code" equiv-text="&lt;code&gt;"/><x id="INTERPOLATION" equiv-text="{{ &quot;{&quot; }}"/> policy!r<x id="INTERPOLATION_1" equiv-text="{{ &quot;}&quot; }}"/><x id="CLOSE_TAG_CODE" ctype="x-code" equiv-text="&lt;/code&gt;"/> renders <x id="START_TAG_CODE" ctype="x-code" equiv-text="&lt;code&gt;"/>'Brute Force PIN Lock'<x id="CLOSE_TAG_CODE" ctype="x-code" equiv-text="&lt;/code&gt;"/> instead of <x id="START_TAG_CODE" ctype="x-code" equiv-text="&lt;code&gt;"/>Brute Force PIN Lock<x id="CLOSE_TAG_CODE" ctype="x-code" equiv-text="&lt;/code&gt;"/>.</source>
+        <target state="new">Add <x id="START_TAG_CODE" ctype="x-code" equiv-text="&lt;code&gt;"/>!r<x id="CLOSE_TAG_CODE" ctype="x-code" equiv-text="&lt;/code&gt;"/> before the closing brace to insert the value's quoted form, e.g. <x id="START_TAG_CODE" ctype="x-code" equiv-text="&lt;code&gt;"/><x id="INTERPOLATION" equiv-text="{{ &quot;{&quot; }}"/> policy!r<x id="INTERPOLATION_1" equiv-text="{{ &quot;}&quot; }}"/><x id="CLOSE_TAG_CODE" ctype="x-code" equiv-text="&lt;/code&gt;"/> renders <x id="START_TAG_CODE" ctype="x-code" equiv-text="&lt;code&gt;"/>'Brute Force PIN Lock'<x id="CLOSE_TAG_CODE" ctype="x-code" equiv-text="&lt;/code&gt;"/> instead of <x id="START_TAG_CODE" ctype="x-code" equiv-text="&lt;code&gt;"/>Brute Force PIN Lock<x id="CLOSE_TAG_CODE" ctype="x-code" equiv-text="&lt;/code&gt;"/>.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/conditional-access/conditional-access-edit-page/stages-list/stage-item/actions-list/action-item/conditional-access-action-item.component.html</context>
           <context context-type="linenumber">270</context>
@@ -21483,16 +21483,16 @@
         </context-group>
       </trans-unit>
       <trans-unit id="conditionalAccess.temporarilyBlockRequestS" datatype="html">
-        <source>Temporarily block the request&apos;s source IP for the duration below.</source>
-        <target state="new">Temporarily block the request&apos;s source IP for the duration below.</target>
+        <source>Temporarily block the request's source IP for the duration below.</source>
+        <target state="new">Temporarily block the request's source IP for the duration below.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/conditional-access/conditional-access-edit-page/stages-list/stage-item/actions-list/action-item/conditional-access-action-item.component.ts</context>
           <context context-type="linenumber">45</context>
         </context-group>
       </trans-unit>
       <trans-unit id="conditionalAccess.blockRequestSSource" datatype="html">
-        <source>Block the request&apos;s source IP until an administrator unblocks it.</source>
-        <target state="new">Block the request&apos;s source IP until an administrator unblocks it.</target>
+        <source>Block the request's source IP until an administrator unblocks it.</source>
+        <target state="new">Block the request's source IP until an administrator unblocks it.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/conditional-access/conditional-access-edit-page/stages-list/stage-item/actions-list/action-item/conditional-access-action-item.component.ts</context>
           <context context-type="linenumber">46</context>
@@ -21643,8 +21643,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="conditionalAccess.stageSFailureThreshold" datatype="html">
-        <source>The stage&apos;s failure threshold</source>
-        <target state="new">The stage&apos;s failure threshold</target>
+        <source>The stage's failure threshold</source>
+        <target state="new">The stage's failure threshold</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/conditional-access/conditional-access-edit-page/stages-list/stage-item/actions-list/action-item/conditional-access-action-item.component.ts</context>
           <context context-type="linenumber">149</context>
@@ -21803,8 +21803,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="conditionalAccess.runsActionsBelowOnce" datatype="html">
-        <source>Runs the actions below once this many tracked events occur within the policy&apos;s time window.</source>
-        <target state="new">Runs the actions below once this many tracked events occur within the policy&apos;s time window.</target>
+        <source>Runs the actions below once this many tracked events occur within the policy's time window.</source>
+        <target state="new">Runs the actions below once this many tracked events occur within the policy's time window.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/conditional-access/conditional-access-edit-page/stages-list/stage-item/conditional-access-stage-item.component.html</context>
           <context context-type="linenumber">82</context>
@@ -21819,8 +21819,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="conditionalAccess.thresholdMeansAlwaysNeeds" datatype="html">
-        <source>A threshold of 0 means &quot;always&quot; and needs a stage carrying only DENY.</source>
-        <target state="new">A threshold of 0 means &quot;always&quot; and needs a stage carrying only DENY.</target>
+        <source>A threshold of 0 means "always" and needs a stage carrying only DENY.</source>
+        <target state="new">A threshold of 0 means "always" and needs a stage carrying only DENY.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/conditional-access/conditional-access-edit-page/stages-list/stage-item/conditional-access-stage-item.component.html</context>
           <context context-type="linenumber">101</context>
@@ -21891,8 +21891,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="conditionalAccess.replaceSuggestedWordingStage" datatype="html">
-        <source>Replace with the suggested wording for this stage&apos;s actions</source>
-        <target state="new">Replace with the suggested wording for this stage&apos;s actions</target>
+        <source>Replace with the suggested wording for this stage's actions</source>
+        <target state="new">Replace with the suggested wording for this stage's actions</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/conditional-access/conditional-access-edit-page/stages-list/stage-item/conditional-access-stage-item.component.ts</context>
           <context context-type="linenumber">93</context>
@@ -21907,8 +21907,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="conditionalAccess.shownUserRequestStage" datatype="html">
-        <source>Shown to the user on a request this stage turns away before the password or OTP is checked: while a lock or block written by this stage is in force, or when this stage denies access. Not on the request that trips the stage - that one gets the answer it had coming, and the restriction applies from the next request. It applies to this stage only. Left empty, the user is told only &quot;Authentication failed.&quot;, so a rejection cannot be told apart from any other failed authentication - unless the &quot;show_default_ca_error_message&quot; policy is set, which fills in the default wording for this stage&apos;s actions.</source>
-        <target state="new">Shown to the user on a request this stage turns away before the password or OTP is checked: while a lock or block written by this stage is in force, or when this stage denies access. Not on the request that trips the stage - that one gets the answer it had coming, and the restriction applies from the next request. It applies to this stage only. Left empty, the user is told only &quot;Authentication failed.&quot;, so a rejection cannot be told apart from any other failed authentication - unless the &quot;show_default_ca_error_message&quot; policy is set, which fills in the default wording for this stage&apos;s actions.</target>
+        <source>Shown to the user on a request this stage turns away before the password or OTP is checked: while a lock or block written by this stage is in force, or when this stage denies access. Not on the request that trips the stage - that one gets the answer it had coming, and the restriction applies from the next request. It applies to this stage only. Left empty, the user is told only "Authentication failed.", so a rejection cannot be told apart from any other failed authentication - unless the "show_default_ca_error_message" policy is set, which fills in the default wording for this stage's actions.</source>
+        <target state="new">Shown to the user on a request this stage turns away before the password or OTP is checked: while a lock or block written by this stage is in force, or when this stage denies access. Not on the request that trips the stage - that one gets the answer it had coming, and the restriction applies from the next request. It applies to this stage only. Left empty, the user is told only "Authentication failed.", so a rejection cannot be told apart from any other failed authentication - unless the "show_default_ca_error_message" policy is set, which fills in the default wording for this stage's actions.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/conditional-access/conditional-access-edit-page/stages-list/stage-item/conditional-access-stage-item.component.ts</context>
           <context context-type="linenumber">98</context>
@@ -22567,8 +22567,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="common.blockedShowIpS" datatype="html">
-        <source>Blocked <x id="PH" equiv-text="formatLocalDateTime(entry.at)"/> - show this IP&apos;s authentication log</source>
-        <target state="new">Blocked <x id="PH" equiv-text="formatLocalDateTime(entry.at)"/> - show this IP&apos;s authentication log</target>
+        <source>Blocked <x id="PH" equiv-text="formatLocalDateTime(entry.at)"/> - show this IP's authentication log</source>
+        <target state="new">Blocked <x id="PH" equiv-text="formatLocalDateTime(entry.at)"/> - show this IP's authentication log</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/dashboard/widgets/conditional-access-widget/conditional-access-widget.component.ts</context>
           <context context-type="linenumber">650</context>
@@ -22695,8 +22695,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="authLog.exampleQueryUsernameAlice" datatype="html">
-        <source>Example query: &apos;username: alice event_type: LOGIN_SUCCESS&apos;</source>
-        <target state="new">Example query: &apos;username: alice event_type: LOGIN_SUCCESS&apos;</target>
+        <source>Example query: 'username: alice event_type: LOGIN_SUCCESS'</source>
+        <target state="new">Example query: 'username: alice event_type: LOGIN_SUCCESS'</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/logs/authentication-log/authentication-log.html</context>
           <context context-type="linenumber">41</context>
@@ -22991,8 +22991,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="authLog.nameClientGaveItself" datatype="html">
-        <source>The name the client gave itself in the request&apos;s client_id parameter.</source>
-        <target state="new">The name the client gave itself in the request&apos;s client_id parameter.</target>
+        <source>The name the client gave itself in the request's client_id parameter.</source>
+        <target state="new">The name the client gave itself in the request's client_id parameter.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/logs/authentication-log/authentication-log.ts</context>
           <context context-type="linenumber">258</context>
@@ -23187,8 +23187,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="authLog.showWhatEachUser" datatype="html">
-        <source>Show what each of the user&apos;s tokens found</source>
-        <target state="new">Show what each of the user&apos;s tokens found</target>
+        <source>Show what each of the user's tokens found</source>
+        <target state="new">Show what each of the user's tokens found</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/logs/authentication-log/cells/reason-cell/reason-cell.ts</context>
           <context context-type="linenumber">70</context>
@@ -23287,8 +23287,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="authLog.takenRequestSOwn" datatype="html">
-        <source>Taken from the request&apos;s own client parameter, which the client override permits for this proxy path.</source>
-        <target state="new">Taken from the request&apos;s own client parameter, which the client override permits for this proxy path.</target>
+        <source>Taken from the request's own client parameter, which the client override permits for this proxy path.</source>
+        <target state="new">Taken from the request's own client parameter, which the client override permits for this proxy path.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/logs/authentication-log/cells/source-ip-cell/source-ip-cell.ts</context>
           <context context-type="linenumber">48</context>
@@ -23359,8 +23359,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="authLog.whatEachUserS" datatype="html">
-        <source>What each of the user&apos;s tokens was found to be during this request.</source>
-        <target state="new">What each of the user&apos;s tokens was found to be during this request.</target>
+        <source>What each of the user's tokens was found to be during this request.</source>
+        <target state="new">What each of the user's tokens was found to be during this request.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/logs/authentication-log/reason-detail-dialog/reason-detail-dialog.html</context>
           <context context-type="linenumber">81</context>
@@ -23675,8 +23675,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="lockedUsers.exampleQueryUsernamesAlice" datatype="html">
-        <source>Example query: &apos;usernames: alice realms: myrealm&apos;</source>
-        <target state="new">Example query: &apos;usernames: alice realms: myrealm&apos;</target>
+        <source>Example query: 'usernames: alice realms: myrealm'</source>
+        <target state="new">Example query: 'usernames: alice realms: myrealm'</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/logs/locked-users/locked-users.component.html</context>
           <context context-type="linenumber">41</context>
@@ -24359,8 +24359,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="conditionalAccess.doYouReallyWant2" datatype="html">
-        <source>Do you really want to delete the policy &quot;<x id="PH" equiv-text="policy.name"/>&quot;?</source>
-        <target state="new">Do you really want to delete the policy &quot;<x id="PH" equiv-text="policy.name"/>&quot;?</target>
+        <source>Do you really want to delete the policy "<x id="PH" equiv-text="policy.name"/>"?</source>
+        <target state="new">Do you really want to delete the policy "<x id="PH" equiv-text="policy.name"/>"?</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/services/conditional-access/conditional-access-policy.service.ts</context>
           <context context-type="linenumber">736</context>
@@ -24819,8 +24819,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="common.cannotBeNamed" datatype="html">
-        <source>Cannot be named &quot;<x id="INTERPOLATION" equiv-text="{{ privacyideaForm.identifier().value() }}"/>&quot;.</source>
-        <target state="new">Cannot be named &quot;<x id="INTERPOLATION" equiv-text="{{ privacyideaForm.identifier().value() }}"/>&quot;.</target>
+        <source>Cannot be named "<x id="INTERPOLATION" equiv-text="{{ privacyideaForm.identifier().value() }}"/>".</source>
+        <target state="new">Cannot be named "<x id="INTERPOLATION" equiv-text="{{ privacyideaForm.identifier().value() }}"/>".</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/external-services/privacyidea-servers/new-privacyidea-server/new-privacyidea-server.component.html</context>
           <context context-type="linenumber">92</context>
