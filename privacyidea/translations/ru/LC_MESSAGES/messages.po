@@ -6,13 +6,14 @@
 # Сергей Котенков <kotenkovsn@ya.ru>, 2024.
 # LS_Grand <lsg@lsgrand.com>, 2025.
 # imennodenis <imennodenis@gmail.com>, 2025.
+# LS_Grand <lsgrand@users.noreply.hosted.weblate.org>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"Report-Msgid-Bugs-To: translations@privacyidea.org\n"
 "POT-Creation-Date: 2026-09-21 12:02+0200\n"
-"PO-Revision-Date: 2025-09-25 18:01+0000\n"
-"Last-Translator: imennodenis <imennodenis@gmail.com>\n"
+"PO-Revision-Date: 2026-11-16 08:45+0000\n"
+"Last-Translator: LS_Grand <lsgrand@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/privacyidea/"
 "privacyidea-server/ru/>\n"
 "Language: ru\n"
@@ -22,6 +23,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "Generated-By: Babel 2.17.0\n"
+"X-Generator: Weblate 2026.12.dev0\n"
 
 #: api/auth.py:319
 msgid "Authentication with passkey disabled."
@@ -63,7 +65,7 @@ msgstr "Ошибка аутентификации. Отсутствует имя
 
 #: api/container.py:289
 msgid "Missing parameter 'realm', 'resolver', and/or 'user_id'"
-msgstr ""
+msgstr "Не указан параметр 'realm', 'resolver', и/или 'user_id'"
 
 #: api/container.py:1441
 msgid "'template_options' must be a dictionary!"
@@ -72,7 +74,7 @@ msgstr ""
 #: api/event.py:259
 #, python-brace-format
 msgid "Unknown handler module: {0!s}"
-msgstr ""
+msgstr "Неизвестный handler модуль: {0!s}"
 
 #: api/event.py:276 api/event.py:278
 msgid "The 'conditions' parameter must be a dictionary."
@@ -85,7 +87,7 @@ msgstr ""
 #: api/periodictask.py:208
 #, python-brace-format
 msgid "Unknown task module: {0!r}"
-msgstr ""
+msgstr "Неизвестный task модуль: {0!r}"
 
 #: api/periodictask.py:216
 #, python-brace-format
@@ -95,10 +97,11 @@ msgstr ""
 #: api/policy.py:479 api/token.py:1484
 msgid "Unable to convert file contents. Binary data is not supported"
 msgstr ""
+"Не удалось преобразовать содержимое файла. Двоичные данные не поддерживаются"
 
 #: api/policy.py:483
 msgid "Error loading policy. File empty!"
-msgstr ""
+msgstr "Ошибка загрузки политики. Файл пуст!"
 
 #: api/realm.py:564
 msgid "The given node does not exist!"
@@ -110,7 +113,7 @@ msgstr "Не удалось проверить данные в запросе!"
 
 #: api/register.py:146
 msgid "No SMTP server configuration specified!"
-msgstr ""
+msgstr "Не указана конфигурация SMTP-сервера!"
 
 #: api/register.py:160
 msgid "No resolver specified to register in!"
@@ -118,11 +121,11 @@ msgstr ""
 
 #: api/register.py:167
 msgid "The username is already registered!"
-msgstr ""
+msgstr "Имя пользователя уже зарегистрировано!"
 
 #: api/register.py:198
 msgid "Failed to send email!"
-msgstr ""
+msgstr "Не удалось отправить email!"
 
 #: api/system.py:362
 #, python-brace-format
@@ -133,36 +136,36 @@ msgstr ""
 msgid ""
 "The Pre Shared Key must be 128 Bit hex encoded. It must be 32 characters "
 "long!"
-msgstr ""
+msgstr "Pre Shared Key должен быть 128-битным hex значением длиной 32 символа!"
 
 #: api/token.py:1488
 msgid "Error loading token file. File empty!"
-msgstr ""
+msgstr "Ошибка загрузки токен файла. Файл пуст!"
 
 #: api/token.py:1494
 #, python-brace-format
 msgid ""
 "Unknown file type: '{file_type}'. Supported file types are: {known_types}"
 msgstr ""
+"Неизвестный тип файла: '{file_type}'. Поддерживаются следующие типы файлов: "
+"{known_types}"
 
 #: api/token.py:1650
 #, python-brace-format
 msgid "The user {0!r} does not own the token {1!s}"
-msgstr ""
+msgstr "Токен {1!s} не принадлежит пользователю {0!r}"
 
 #: api/validate.py:269
-#, fuzzy
 msgid "The token does not exist"
-msgstr "Данная нода не существует!"
+msgstr "Токен не существует"
 
 #: api/validate.py:276
-#, fuzzy
 msgid "The token is not valid."
-msgstr "Токен сопоставлен пользователю."
+msgstr "Токен недействителен."
 
 #: api/validate.py:289
 msgid "Machine can not be identified by user agent!"
-msgstr ""
+msgstr "Не удалось определить устройство по user agent!"
 
 #: api/validate.py:305
 msgid "Token is not an offline token or refill token is incorrect"
@@ -185,9 +188,8 @@ msgid "Failed to cancel enrollment via multichallenge for transaction_id "
 msgstr "Ошибка отмены выпуска с помощью multichallenge для transaction_id "
 
 #: api/validate.py:711 api/validate.py:1602
-#, fuzzy
 msgid "The authentication method is not available."
-msgstr "Аутентификация с использованием passkey отключена."
+msgstr "Метод аутентификации недоступен."
 
 #: api/validate.py:751
 #, python-brace-format
@@ -201,18 +203,16 @@ msgid "Found matching challenge"
 msgstr "Найден соответствующий challenge"
 
 #: api/lib/utils.py:81 api/validate.py:799
-#, fuzzy
 msgid "Authentication failed."
-msgstr "Ошибка аутентификации при использовании passkey."
+msgstr "Ошибка аутентификации."
 
 #: api/validate.py:817 api/validate.py:819
 msgid "Given serial does not belong to given user!"
 msgstr ""
 
 #: api/validate.py:1151 api/validate.py:1207
-#, fuzzy
 msgid "Authentication failure. A valid API key is required."
-msgstr "Ошибка аутентификации. Passkey не зарегистрирован."
+msgstr "Ошибка аутентификации. Требуется действительный API-ключ."
 
 #: api/validate.py:1605
 #, python-brace-format
@@ -479,12 +479,12 @@ msgid "Admin is allowed to view the list of the users."
 msgstr "Администратору разрешено просматривать список пользователей."
 
 #: lib/policy.py:1834
-#, fuzzy
 msgid ""
 "Admin is allowed to read the privacyIDEA-internal attributes of a user (e.g. "
 "fido2_user_id)."
 msgstr ""
-"Администратору разрешено читать определения удаленного сервера privacyIDEA."
+"Администратору разрешено просматривать внутренние атрибуты пользователя, "
+"используемые в privacyIDEA (например, fido2_user_id)."
 
 #: lib/policy.py:1839
 msgid "The Admin is allowed to list the machines."
@@ -516,9 +516,8 @@ msgstr ""
 "Администратору разрешено получать серийный номер для данного значения OTP."
 
 #: lib/policy.py:1870
-#, fuzzy
 msgid "Admin is allowed to read the public SSH key of an SSH key token."
-msgstr "Администратору разрешено сбрасывать счетчик ошибок токена."
+msgstr "Администратору разрешено просматривать открытый ключ SSH-токена."
 
 #: lib/policy.py:1875
 msgid "Admin is allowed to retrieve random keys from privacyIDEA."
@@ -648,15 +647,15 @@ msgid ""
 msgstr ""
 
 #: lib/policy.py:2016
-#, fuzzy
 msgid "Admin is allowed to read the conditional-access policies."
-msgstr "Администратору разрешено читать политики."
+msgstr "Администратору разрешено просматривать политики Conditional Access."
 
 #: lib/policy.py:2020
-#, fuzzy
 msgid ""
 "Admin is allowed to create, edit and delete the conditional-access policies."
-msgstr "Администратору разрешено создавать и изменять политики."
+msgstr ""
+"Администратору разрешено создавать, изменять и удалять политики Conditional "
+"Access."
 
 #: lib/policy.py:2024
 msgid ""
@@ -665,9 +664,10 @@ msgid ""
 msgstr ""
 
 #: lib/policy.py:2029
-#, fuzzy
 msgid "Admin is allowed to reset (unlock) a conditional-access user lock."
-msgstr "Администратору разрешено удалять коннекторы УЦ."
+msgstr ""
+"Администратор может разблокировать пользователя, заблокированного функцией "
+"conditional-access."
 
 #: lib/policy.py:2033
 msgid ""
@@ -676,19 +676,16 @@ msgid ""
 msgstr ""
 
 #: lib/policy.py:2037
-#, fuzzy
 msgid "Admin is allowed to read the blocklist."
-msgstr "Администратору разрешено читать политики."
+msgstr "Администратору разрешено просматривать blocklist."
 
 #: lib/policy.py:2040
-#, fuzzy
 msgid "Admin is allowed to remove entries from the blocklist."
-msgstr "Администратору разрешено удалять токены из базы данных."
+msgstr "Администратору разрешено удалять записи из blocklist."
 
 #: lib/policy.py:2043
-#, fuzzy
 msgid "Admin is allowed to add an IP address to the blocklist manually."
-msgstr "Администратору разрешено создавать и изменять политики."
+msgstr "Администратору разрешено вручную добавлять IP-адреса в blocklist."
 
 #: lib/policy.py:2046
 msgid "The admin will only see audit entries of the last 10d, 3m or 2y."
@@ -731,9 +728,8 @@ msgid "Admin is allowed to retrieve the list of active challenges."
 msgstr "Администратору разрешено получать список активных задач."
 
 #: lib/policy.py:2086
-#, fuzzy
 msgid "Admin is allowed to cancel (delete) active challenges."
-msgstr "Администратору разрешено получать список активных задач."
+msgstr "Администратору разрешено отменять (удалять) активные challenge-запросы."
 
 #: lib/policy.py:2091
 msgid "Admin is allowed to write new SMTP server definitions."
@@ -843,11 +839,11 @@ msgstr "Администратору разрешено просматриват
 
 #: lib/policy.py:2209
 msgid "The Admin is allowed to add a new tokengroup."
-msgstr "Администратору разрешено добавлять новые группы токенов."
+msgstr "Администратору разрешено добавлять новую группу токенов."
 
 #: lib/policy.py:2214
 msgid "The Admin is allowed delete a tokengroup."
-msgstr "Администратору разрешено удалять группы токенов."
+msgstr "Администратору разрешено удалять группу токенов."
 
 #: lib/policy.py:2219
 msgid "The Admin is allowed list the available service ID definitions."
@@ -865,36 +861,33 @@ msgid "The Admin is allowed delete a service ID definition."
 msgstr "Администратору разрешено удалять определение идентификатора службы."
 
 #: lib/policy.py:2234
-#, fuzzy
 msgid "The Admin is allowed to list API clients."
-msgstr "Администратору разрешено перечислять токены."
+msgstr "Администратору разрешено просматривать список API-клиентов."
 
 #: lib/policy.py:2239
-#, fuzzy
 msgid "The Admin is allowed to create API clients."
-msgstr "Администратору разрешено создавать контейнеры."
+msgstr "Администратору разрешено создавать API-клиентов."
 
 #: lib/policy.py:2244
-#, fuzzy
 msgid ""
 "The Admin is allowed to modify API clients (display name, status, config)."
-msgstr "Администратору разрешено добавлять новые группы токенов."
+msgstr ""
+"Администратору разрешено изменять API-клиенты (отображаемое имя, статус, "
+"конфигурацию)."
 
 #: lib/policy.py:2249
-#, fuzzy
 msgid "The Admin is allowed to rotate the API key of a client."
-msgstr ""
-"Администратору разрешено управлять группами, к которым принадлежит токен."
+msgstr "Администратору разрешено ротировать API-ключ клиента."
 
 #: lib/policy.py:2254
-#, fuzzy
 msgid "The Admin is allowed to delete API clients."
-msgstr "Администратору разрешено удалять политики."
+msgstr "Администратору разрешено удалять API-клиенты."
 
 #: lib/policy.py:2259
-#, fuzzy
 msgid "The Admin is allowed to list the remembered devices of API clients."
-msgstr "Администратору разрешено перечислять машины."
+msgstr ""
+"Администратору разрешено просматривать зарегистрированные устройства API "
+"клиентов."
 
 #: lib/policy.py:2264
 msgid ""
@@ -999,10 +992,11 @@ msgstr ""
 "использованием серийного номера токена."
 
 #: lib/policy.py:2360
-#, fuzzy
 msgid ""
 "The user is allowed to read their own entries from the authentication log."
-msgstr "Пользователям разрешено удалять свои токены из своих контейнеров."
+msgstr ""
+"Пользователю разрешено просматривать собственные записи в журнале "
+"аутентификации."
 
 #: lib/policy.py:2363
 msgid "The user is allowed to disable his own tokens."
@@ -1024,10 +1018,9 @@ msgid ""
 msgstr ""
 
 #: lib/policy.py:2382
-#, fuzzy
 msgid ""
 "The user is allowed to read the public SSH key of his own SSH key token."
-msgstr "Пользователь может активировать свои собственные токены."
+msgstr "Пользователю разрешено просматривать открытый ключ своего SSH-токена."
 
 #: lib/policy.py:2387
 msgid "The user is allowed to unassign his own tokens."
@@ -2073,9 +2066,8 @@ msgid "The RADIUS secret is too long"
 msgstr ""
 
 #: lib/remembered_device.py:283
-#, fuzzy
 msgid "Authentication failure. Device token reuse detected."
-msgstr "Ошибка аутентификации. Токен не привязан к пользователю."
+msgstr "Ошибка аутентификации. Обнаружено повторное использование device token."
 
 #: lib/subscriptions.py:53
 msgid "My subscription has expired."
@@ -2090,9 +2082,9 @@ msgid "The tokengroup does not exist."
 msgstr ""
 
 #: lib/tokenclass.py:1365
-#, fuzzy, python-brace-format
+#, python-brace-format
 msgid "Tokengroup {0!s} does not exist."
-msgstr "Данная нода не существует!"
+msgstr "Группа токенов «{0!s}» не существует."
 
 #: lib/tokenclass.py:2061
 msgid "please enter otp: "
@@ -3896,19 +3888,16 @@ msgid ""
 msgstr ""
 
 #: lib/tokens/pushtoken.py:715
-#, fuzzy
 msgid "The message that is shown above the code on the smartphone."
-msgstr "Пользователю запрещено удалять токены локально на смартфоне."
+msgstr "Текст, отображаемый над кодом на смартфоне."
 
 #: lib/tokens/pushtoken.py:720
-#, fuzzy
 msgid ""
 "Use an alternative challenge text for telling the user to confirm the "
 "authentication on his mobile device."
 msgstr ""
-"Используйте альтернативный challenge текст, чтобы указать пользователю "
-"ввести значение OTP. Вы также можете использовать теги для автоматической "
-"подстановки. Подробнее см. в документации."
+"Использовать альтернативный текст challenge для подтверждения аутентификации "
+"на мобильном устройстве."
 
 #: lib/tokens/pushtoken.py:727
 #, python-brace-format
